@@ -25,6 +25,10 @@ const config: Config = {
         sans: 'var(--font-sans)',
         serif: 'var(--font-serif)',
       },
+      maskImage: {
+        gradient:
+          'linear-gradient(to bottom, transparent, black 10%, black 70%, transparent)',
+      },
     },
   },
   plugins: [],
