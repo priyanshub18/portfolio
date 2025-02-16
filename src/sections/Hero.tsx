@@ -63,7 +63,7 @@ export const HeroSection = () => {
         </HeroOrbit>
 
         <HeroOrbit size={1250} rotate={-3}>
-          <div className='size-3 rounded-full bg-emerald-300/20'></div>
+          <div className='size-3 rounded-full bg-emerald-300/20'></div> 
         </HeroOrbit>
         <HeroOrbit size={910} rotate={165}>
           <div className='size-3 rounded-full bg-emerald-300/20'></div>
