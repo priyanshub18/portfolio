@@ -43,7 +43,7 @@ A modern, interactive portfolio website built with Next.js, Tailwind CSS, and 3D
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/priyanshub18/portfolio-website.git
    cd portfolio-website
    ```
 
@@ -68,21 +68,27 @@ A modern, interactive portfolio website built with Next.js, Tailwind CSS, and 3D
 ## 📂 Project Structure
 
 ```
-├── app/
-│   ├── layout.js           # Root layout
-│   ├── page.js             # Home page
-│   ├── projects/           # Projects section
-│   ├── interests/          # Personal interests section
-│   ├── contact/            # Contact section
-│   └── globals.css         # Global styles
-├── components/
-│   ├── 3d/                 # 3D model components
-│   ├── animations/         # Animation components
-│   ├── ui/                 # UI components
-│   └── sections/           # Page sections
-├── public/
-│   ├── models/             # 3D model files
-│   └── images/             # Static images
+ ├── /src
+        ├── /app
+        │   ├── layout.js           # Root layout
+        │   ├── page.js             # Home page
+        │   └── globals.css         # Global styles
+        ├── components/
+        │   ├── Card/               #All the Cards
+        │   ├── HeaderStyle/             #All the header styling
+        │   ├── Orbit/              # Concentric Orbit
+        │   └── TechIcon/
+        ├── assets/
+        │   ├── icons/             # 3D model files
+        │   └── images/             # Static images
+        ├── sections/
+        │   ├── About/               # Cards showcasing personal details and skills.
+        │   ├── Contact/             # Header styling and contact form.
+        │   ├── Footer/              # Footer with concentric orbit design and links.
+        │   ├── Header/              # Navigation and top section styling.
+        │   ├── Hero/                # Hero section with heading and CTA.
+        │   ├── Projects/            # Project showcase with links and descriptions.
+        │   └── Tape/                # Section for media or work samples.
 ├── styles/                 # Additional styles
 ├── lib/                    # Utility functions
 ├── next.config.js          # Next.js configuration
