@@ -46,7 +46,7 @@ const portfolioProjects = [
 
 export const ProjectsSection = () => {
   return (
-    <section className='pb-16'>
+    <section className='pb-16' id='projects'>
       <div className='container '>
         <div className='flex flex-col items-center '>
           <p className='uppercase text-transparent font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text'>

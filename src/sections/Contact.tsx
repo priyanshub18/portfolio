@@ -4,7 +4,7 @@ import grainImage from '@/assets/images/grain.jpg';
 
 export const ContactSection = () => {
   return (
-    <div className='py-16 pt-12'>
+    <div className='py-16 pt-12' id='contact'>
       <div className='container'>
         <div className='flex flex-col items-center justify-between md:flex-row gap-5 bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900 py-10 px-10 rounded-3xl text-center md:text-left relative overflow-hidden z-0'>
           <div

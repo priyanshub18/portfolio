@@ -1,3 +1,4 @@
+'use client';
 import memojiImage from '@/assets/images/memoji-computer.png';
 import Image from 'next/image';
 import ArrowDown from '@/assets/icons/arrow-down.svg';
@@ -6,12 +7,16 @@ import StarIcon from '@/assets/icons/star.svg';
 import HeroOrbit from '@/components/HeroOrbit';
 import SparkleIcon from '@/assets/icons/sparkle.svg';
 import { useMediaQuery } from 'usehooks-ts';
-
+import { useRef } from 'react';
 export const HeroSection = () => {
+  // const HeroRef = useRef(null);
   // const isSmall = useMediaQuery('(max-width: 640px)'); // sm
   // const isMedium = useMediaQuery('(max-width: 1024px)'); // md
   return (
-    <div className='py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip'>
+    <div
+      className='py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip'
+      id='hero'
+    >
       {/* <div className='absolute inset-0 size-[800px] border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-emerald-300/5 shadow-[0_0_80px_inset] shadow-emerald-300/5 '></div>
       <div className='absolute inset-0 size-[1000px] border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-emerald-300/5 shadow-[0_0_80px_inset] shadow-emerald-300/5 '></div>
       <div className='absolute inset-0 size-[1200px] border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-emerald-300/5 shadow-[0_0_80px_inset] shadow-emerald-300/5 '></div> */}
@@ -286,3 +291,4 @@ export const HeroSection = () => {
     </div>
   );
 };
+// export default HeroRef;

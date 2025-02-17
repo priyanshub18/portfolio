@@ -80,7 +80,7 @@ const hobbies = [
 ];
 export const AboutSection = () => {
   return (
-    <div className='py-20 lg:py-28'>
+    <div className='py-20 lg:py-28' id='about'>
       <div className='container '>
         <SectionHeader
           eyebrow='About Me'
