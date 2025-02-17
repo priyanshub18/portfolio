@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-![Portfolio Preview](https://ibb.co/0jVLP9hv)
+![Portfolio Preview](https://imgur.com/a/D2XcA99)
 
 A modern, interactive portfolio website built with Next.js, Tailwind CSS, and 3D models. This portfolio showcases projects, personal interests, and contact information with elegant animations and interactive elements.
 
