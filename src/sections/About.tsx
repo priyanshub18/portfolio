@@ -1,3 +1,4 @@
+'use client';
 import SectionHeader from '@/components/SectionHeader';
 import Card from '@/components/Card';
 import StarIcon from '@/assets/icons/star.svg';
@@ -14,6 +15,7 @@ import mapImage from '@/assets/images/map2.png';
 import smileMemoji from '@/assets/images/memoji-smile.png';
 import CardHeader from '@/components/CardHeader';
 import ToolItems from '@/components/ToolItems';
+import { motion } from 'framer-motion';
 const toolboxItems = [
   {
     title: 'Javascript',
@@ -100,12 +102,16 @@ export const AboutSection = () => {
                 description='Explore the technologies and tools I use to create innovative solutions.'
               />
 
-              <ToolItems toolboxItems={toolboxItems} className='mt-6' />
+              <ToolItems
+                toolboxItems={toolboxItems}
+                className='mt-6'
+                itemsWrapperclassName='animate-move-left [animation-duration:15s]'
+              />
               <ToolItems
                 toolboxItems={toolboxItems}
                 className='mt-6 '
-                itemsWrapperclassName='-translate-x-1/2
-              1/2'
+                itemsWrapperclassName='-translate-x-1/2 animate-move-right [animation-duration:20s]
+              '
               />
             </Card>
           </div>
@@ -119,19 +125,20 @@ export const AboutSection = () => {
               <div className='relative flex-1 '>
                 {hobbies.map((item) => {
                   return (
-                    <div
+                    <motion.div
                       key={item.title}
                       className='inline-flex gap-2 px-6  bg-gradient-to-r items-center from-emerald-300 to-sky-400 rounded-full py-1.5 absolute'
                       style={{
                         left: item.left,
                         top: item.top,
                       }}
+                      drag
                     >
                       <span className='font-medium text-gray-950'>
                         {item.title}
                       </span>
                       <span>{item.emoji}</span>
-                    </div>
+                    </motion.div>
                   );
                 })}
               </div>
@@ -140,12 +147,14 @@ export const AboutSection = () => {
             <Card className='h-[320px] p-0 relative md:col-span-2 lg:col-span-1'>
               <Image
                 src={mapImage}
-                alt='Book Cover'
+                alt='Map Cover'
                 width={600}
                 height={600}
                 className='h-full w-full object-cover object-left-top'
               />
               <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full  bg-gradient-to-r from-emerald-300 to-sky-400 after:content-[""] after:absolute after:inset-0  after:outline-2 after:outline after:-outline-offset-2 after:rounded-full after:outline-white after:pointer-events-none'>
+                <div className='absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]'></div>
+                <div className='absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-10'></div>
                 <Image
                   src={smileMemoji}
                   alt='Smile Memoji'
