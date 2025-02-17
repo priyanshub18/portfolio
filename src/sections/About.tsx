@@ -72,11 +72,11 @@ const hobbies = [
   { title: 'Traveling', emoji: '✈️', left: '5%', top: '3%' },
   { title: 'Reading', emoji: '🔖', left: '60%', top: '5%' },
   { title: 'Photos', emoji: '📸', left: '30%', top: '12%' },
-  { title: 'Gaming', emoji: '🎮', left: '75%', top: '20%' },
+  { title: 'Gaming', emoji: '🎮', left: '35%', top: '80%' },
   { title: 'Movies', emoji: '🎬', left: '10%', top: '35%' },
   { title: 'Journaling', emoji: '📓', left: '55%', top: '40%' },
   { title: 'Music', emoji: '🎵', left: '25%', top: '55%' },
-  { title: 'Coding', emoji: '💻', left: '35%', top: '80%' },
+  // { title: 'Coding', emoji: '💻', left: '35%', top: '80%' },
 ];
 export const AboutSection = () => {
   return (
