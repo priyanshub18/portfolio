@@ -1,5 +1,7 @@
+'use client';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
+
 export const ContactSection = () => {
   return (
     <div className='py-16 pt-12'>
@@ -20,11 +22,18 @@ export const ContactSection = () => {
             </p>
           </div>
           <div>
-            <button className='text-white bg-black rounded-xl px-6 py-2 mt-[6px] h-12 inline-flex items-center justify-center gap-2'>
-              <span className='hidden md:block lg:hidden'>Contact</span>
-              <span className='block md:hidden lg:block'>Contact Me</span>
-              <ArrowUpRightIcon className='size-4' />
-            </button>
+            <a href='mailto:priyanshubh898@gmail.com'>
+              <button
+                className='text-white bg-black rounded-xl px-6 py-2 mt-[6px] h-12 inline-flex items-center justify-center gap-2'
+                onClick={() => {
+                  console.log('clicked');
+                }}
+              >
+                <span className='hidden md:block lg:hidden'>Contact</span>
+                <span className='block md:hidden lg:block'>Contact Me</span>
+                <ArrowUpRightIcon className='size-4' />
+              </button>
+            </a>
           </div>
         </div>
       </div>

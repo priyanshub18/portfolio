@@ -29,8 +29,10 @@ export const HeroSection = () => {
           style={{ backgroundImage: `url(${grainImage})` }}
         ></div>
 
-        <div className='lg:size-[650px] sm:size-[300px] hero-ring'></div>
-        <div className='lg:size-[950px] sm:size-[400px] hero-ring'></div>
+        <div className='lg:size-[650px]  hero-ring'></div>
+        <div className='lg:size-[650px] md:block sm:hidden hero-ring'></div>
+        <div className='lg:size-[950px]  hero-ring'></div>
+        <div className='lg:size-[1250px] sm:size-[500px] hero-ring'></div>
         <div className='lg:size-[1250px] sm:size-[500px] hero-ring'></div>
         <div className='lg:size-[1550px] sm:size-[6000px] hero-ring'></div>
         {/* <div className='size-[1850px] hero-ring'></div> */}
