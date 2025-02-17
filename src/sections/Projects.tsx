@@ -1,4 +1,3 @@
-// import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png';
 import group1 from '@/assets/images/group-1.png';
 import group2 from '@/assets/images/group-2.png';
 import group3 from '@/assets/images/group-3.png';
@@ -17,7 +16,7 @@ const portfolioProjects = [
       { title: 'Reduced trip planning time by 70%' },
       { title: 'Increased user engagement by 50%' },
     ],
-    link: '#',
+    link: 'https://ai-based-travel-planner-j7ov.vercel.app/',
     image: group3,
   },
   {
@@ -29,14 +28,14 @@ const portfolioProjects = [
       { title: 'Reduced development time by 60%' },
       { title: 'Improved UI consistency across projects by 45%' },
     ],
-    link: '#',
+    link: 'https://github.com/priyanshub18/ai-code-generator-app',
     image: group1,
   },
 
   {
     company: 'Self Work',
     year: '2025',
-    title: 'Portfolio',
+    title: 'Personal Portfolio',
     results: [
       { title: 'Developed AI-powered apps with 90% efficiency' },
       { title: 'Optimized web solutions, improving performance by 50%' },
@@ -105,7 +104,11 @@ export const ProjectsSection = () => {
                         );
                       })}
                     </ul>
-                    <a href={project.link}>
+                    <a
+                      href={project.link}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
                       <button className='bg-white text-gray-950 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-[8px] mt-8 md:w-auto px-8'>
                         <span>Visit Live Site</span>
                         <ArrowUpRightIcon className='size-4' />

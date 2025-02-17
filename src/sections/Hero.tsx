@@ -9,9 +9,6 @@ import SparkleIcon from '@/assets/icons/sparkle.svg';
 import { useMediaQuery } from 'usehooks-ts';
 import { useRef } from 'react';
 export const HeroSection = () => {
-  // const HeroRef = useRef(null);
-  // const isSmall = useMediaQuery('(max-width: 640px)'); // sm
-  // const isMedium = useMediaQuery('(max-width: 1024px)'); // md
   return (
     <div
       className='py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip'

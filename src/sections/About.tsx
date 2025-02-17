@@ -1,7 +1,6 @@
 'use client';
 import SectionHeader from '@/components/SectionHeader';
 import Card from '@/components/Card';
-import StarIcon from '@/assets/icons/star.svg';
 import bookImage from '@/assets/images/book-cover.png';
 import Image from 'next/image';
 import JavascriptIcon from '@/assets/icons/square-js.svg';
@@ -10,7 +9,6 @@ import CssIcon from '@/assets/icons/css3.svg';
 import ReactIcon from '@/assets/icons/react.svg';
 import ChromeIcon from '@/assets/icons/chrome.svg';
 import GithubIcon from '@/assets/icons/github.svg';
-import TechIcon from '@/components/TechIcon';
 import mapImage from '@/assets/images/map2.png';
 import smileMemoji from '@/assets/images/memoji-smile.png';
 import CardHeader from '@/components/CardHeader';
@@ -45,30 +43,6 @@ const toolboxItems = [
   },
 ];
 
-// const hobbies = [
-//   {
-//     title: 'Traveling',
-//     emoji: '✈️',
-//     left: '2.5%',
-//     top: '5%',
-//   },
-//   { left: '50%', top: '5%', title: 'Reading', emoji: '🔖' },
-//   { left: '45%', top: '23%', title: 'Photography', emoji: '📸' },
-//   { left: '35%', top: '40%', title: 'Gaming', emoji: '🎮' },
-//   {
-//     title: 'Movies',
-//     emoji: '🎬',
-//     left: '70%',
-//     top: '45%',
-//   },
-//   { left: '5%', top: '65%', title: 'Journaling', emoji: '📓' },
-//   {
-//     title: 'Music',
-//     emoji: '🎵',
-//     left: '45%',
-//     top: '70%',
-//   },
-// ];
 const hobbies = [
   { title: 'Traveling', emoji: '✈️', left: '5%', top: '3%' },
   { title: 'Reading', emoji: '📖', left: '60%', top: '5%' },
