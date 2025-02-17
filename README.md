@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-![Portfolio Preview](https://imgur.com/GUgBNmT)
+![Portfolio Preview](https://github.com/priyanshub18/portfolio/blob/main/src/assets/images/group-2.png)
 
 A modern, interactive portfolio website built with Next.js, Tailwind CSS, and 3D models. This portfolio showcases projects, personal interests, and contact information with elegant animations and interactive elements.
 
