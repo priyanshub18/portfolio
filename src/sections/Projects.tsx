@@ -1,46 +1,49 @@
-import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png';
-import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png';
-import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png';
+// import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png';
+import group1 from '@/assets/images/group-1.png';
+import group2 from '@/assets/images/group-2.png';
+import group3 from '@/assets/images/group-3.png';
+
 import Image from 'next/image';
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
 const portfolioProjects = [
   {
-    company: 'Acme Corp',
-    year: '2022',
-    title: 'Dark Saas Landing Page',
+    company: 'Trip Genie',
+    year: '2025',
+    title: 'AI Travel Planning',
     results: [
-      { title: 'Enhanced user experience by 40%' },
-      { title: 'Improved site speed by 50%' },
-      { title: 'Increased mobile traffic by 35%' },
-    ],
-    link: 'https://youtu.be/4k7IdSLxh6w',
-    image: darkSaasLandingPage,
-  },
-  {
-    company: 'Innovative Co',
-    year: '2021',
-    title: 'Light Saas Landing Page',
-    results: [
-      { title: 'Boosted sales by 20%' },
-      { title: 'Expanded customer reach by 35%' },
-      { title: 'Increased brand awareness by 15%' },
-    ],
-    link: 'https://youtu.be/7hi5zwO75yc',
-    image: lightSaasLandingPage,
-  },
-  {
-    company: 'Quantum Dynamics',
-    year: '2023',
-    title: 'AI Startup Landing Page',
-    results: [
-      { title: 'Enhanced user experience by 40%' },
-      { title: 'Improved site speed by 50%' },
-      { title: 'Increased mobile traffic by 35%' },
+      { title: 'Generated personalized itineraries with 85% accuracy' },
+      { title: 'Reduced trip planning time by 70%' },
+      { title: 'Increased user engagement by 50%' },
     ],
     link: 'https://youtu.be/Z7I5uSRHMHg',
-    image: aiStartupLandingPage,
+    image: group3,
+  },
+  {
+    company: 'Code Morph',
+    year: '2025',
+    title: 'WireFrame To Code',
+    results: [
+      { title: 'Converted AI wireframes to code with 90% accuracy' },
+      { title: 'Reduced development time by 60%' },
+      { title: 'Improved UI consistency across projects by 45%' },
+    ],
+    link: 'https://youtu.be/4k7IdSLxh6w',
+    image: group1,
+  },
+
+  {
+    company: 'Self Work',
+    year: '2025',
+    title: 'Portfolio',
+    results: [
+      { title: 'Developed AI-powered apps with 90% efficiency' },
+      { title: 'Optimized web solutions, improving performance by 50%' },
+      { title: 'Enhanced user engagement through AI-driven automation' },
+    ],
+    link: 'https://youtu.be/7hi5zwO75yc',
+    image: group2,
   },
 ];
 
