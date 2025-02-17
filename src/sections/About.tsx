@@ -14,6 +14,7 @@ import TechIcon from '@/components/TechIcon';
 import mapImage from '@/assets/images/map2.png';
 import smileMemoji from '@/assets/images/memoji-smile.png';
 import CardHeader from '@/components/CardHeader';
+import { useRef } from 'react';
 import ToolItems from '@/components/ToolItems';
 import { motion } from 'framer-motion';
 const toolboxItems = [
@@ -70,15 +71,15 @@ const toolboxItems = [
 // ];
 const hobbies = [
   { title: 'Traveling', emoji: '✈️', left: '5%', top: '3%' },
-  { title: 'Reading', emoji: '🔖', left: '60%', top: '5%' },
+  { title: 'Reading', emoji: '📖', left: '60%', top: '5%' },
   { title: 'Photos', emoji: '📸', left: '30%', top: '12%' },
   { title: 'Gaming', emoji: '🎮', left: '35%', top: '80%' },
   { title: 'Movies', emoji: '🎬', left: '10%', top: '35%' },
   { title: 'Journaling', emoji: '📓', left: '55%', top: '40%' },
   { title: 'Music', emoji: '🎵', left: '25%', top: '55%' },
-  // { title: 'Coding', emoji: '💻', left: '35%', top: '80%' },
 ];
 export const AboutSection = () => {
+  const constraintRef = useRef<HTMLDivElement>(null);
   return (
     <div className='py-20 lg:py-28' id='about'>
       <div className='container '>
@@ -132,7 +133,7 @@ export const AboutSection = () => {
                 description='Explore my interest and hobbies beyond the code.'
                 // className=''
               />
-              <div className='relative flex-1 '>
+              <div className='relative flex-1 ' ref={constraintRef}>
                 {hobbies.map((item) => {
                   return (
                     <motion.div
@@ -143,6 +144,7 @@ export const AboutSection = () => {
                         top: item.top,
                       }}
                       drag
+                      dragConstraints={constraintRef}
                     >
                       <span className='font-medium text-gray-950'>
                         {item.title}

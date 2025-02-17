@@ -17,7 +17,7 @@ const portfolioProjects = [
       { title: 'Reduced trip planning time by 70%' },
       { title: 'Increased user engagement by 50%' },
     ],
-    link: 'https://youtu.be/Z7I5uSRHMHg',
+    link: '#',
     image: group3,
   },
   {
@@ -29,7 +29,7 @@ const portfolioProjects = [
       { title: 'Reduced development time by 60%' },
       { title: 'Improved UI consistency across projects by 45%' },
     ],
-    link: 'https://youtu.be/4k7IdSLxh6w',
+    link: '#',
     image: group1,
   },
 
@@ -42,7 +42,7 @@ const portfolioProjects = [
       { title: 'Optimized web solutions, improving performance by 50%' },
       { title: 'Enhanced user engagement through AI-driven automation' },
     ],
-    link: 'https://youtu.be/7hi5zwO75yc',
+    link: '#',
     image: group2,
   },
 ];
