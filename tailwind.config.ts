@@ -29,6 +29,17 @@ const config: Config = {
         gradient:
           'linear-gradient(to bottom, transparent, black 10%, black 70%, transparent)',
       },
+      animation: {
+        'ping-large': 'ping-large 1s ease-in-out infinite',
+      },
+      keyframes: {
+        'ping-large': {
+          '75%, 100%': {
+            transform: 'scale(3)',
+            opacity: '0',
+          },
+        },
+      },
     },
   },
   plugins: [],
