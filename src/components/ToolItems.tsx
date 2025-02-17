@@ -29,7 +29,7 @@ function ToolItems({
       >
         {[...new Array(2)].fill(0).map((_, idx) => {
           return (
-            <Fragment>
+            <Fragment key={idx}>
               {toolboxItems.map((item) => {
                 return (
                   <div

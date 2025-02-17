@@ -35,7 +35,7 @@ export const TapeSection = () => {
           <div className='flex  gap-4  pr-4 flex-none py-3 -translate-x-1/2 animate-move-left '>
             {[...new Array(2)].fill(0).map((_, idx) => {
               return (
-                <Fragment>
+                <Fragment key={idx}>
                   {words.map((word) => {
                     return (
                       <div
