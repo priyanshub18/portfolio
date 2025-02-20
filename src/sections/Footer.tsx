@@ -9,6 +9,7 @@ const footerLinks = [
   },
   { title: 'Twitter', link: 'https://twitter.com/priyanshubh18' },
   { title: 'LeetCode', link: 'https://leetcode.com/priyanshub18/' },
+  { title: 'Mail', link: 'mailto:priyanshubh898@gmail.com' },
 ];
 
 export const Footer = () => {
