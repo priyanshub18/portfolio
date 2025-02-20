@@ -9,8 +9,11 @@ import CssIcon from '@/assets/icons/css3.svg';
 import ReactIcon from '@/assets/icons/react.svg';
 import ChromeIcon from '@/assets/icons/chrome.svg';
 import GithubIcon from '@/assets/icons/github.svg';
+import NextIcon from '@/assets/icons/nextjs.svg';
+import CppIcon from '@/assets/icons/c.svg';
 import mapImage from '@/assets/images/map2.png';
 import smileMemoji from '@/assets/images/memoji-smile.png';
+
 import CardHeader from '@/components/CardHeader';
 import { useRef } from 'react';
 import ToolItems from '@/components/ToolItems';
@@ -40,6 +43,10 @@ const toolboxItems = [
   {
     title: 'CSS3',
     icontype: CssIcon,
+  },
+  {
+    title: 'NextJs',
+    icontype: NextIcon,
   },
 ];
 
