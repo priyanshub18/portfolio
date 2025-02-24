@@ -1,6 +1,7 @@
 import group1 from '@/assets/images/group-1.png';
 import group2 from '@/assets/images/group-2.png';
 import group3 from '@/assets/images/group-3.png';
+import group4 from '@/assets/images/group-4.png';
 
 import Image from 'next/image';
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
@@ -18,6 +19,18 @@ const portfolioProjects = [
     ],
     link: 'https://ai-based-travel-planner-j7ov.vercel.app/',
     image: group3,
+  },
+  {
+    company: 'Anon-Mess',
+    year: '2025',
+    title: 'Anonymous Messaging Platform',
+    results: [
+      { title: 'Implemented secure anonymous messaging with NextAuth' },
+      { title: 'Integrated AI-powered message suggestions using Gemini' },
+      { title: 'Optimized backend to handle 100+ users concurrently' },
+    ],
+    link: 'https://github.com/priyanshub18/anon-mess/',
+    image: group4,
   },
   {
     company: 'Code Morph',
