@@ -29,7 +29,7 @@ const portfolioProjects = [
       { title: 'Integrated AI-powered message suggestions using Gemini' },
       { title: 'Optimized backend to handle 100+ users concurrently' },
     ],
-    link: 'https://github.com/priyanshub18/anon-mess/',
+    link: 'https://anon-mess-57de.vercel.app/',
     image: group4,
   },
   {
