@@ -11,8 +11,9 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: 'My Portfolio',
-  description: 'Created with the help of Frontend Tribe',
+  title: 'Portfolio ',
+  description: 'Priyanshu Bhardwaj Portfolio',
+  // icons: ['/next.svg'],
 };
 
 export default function RootLayout({

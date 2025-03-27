@@ -2,7 +2,7 @@ import group1 from '@/assets/images/group-1.png';
 import group2 from '@/assets/images/group-2.png';
 import group3 from '@/assets/images/group-3.png';
 import group4 from '@/assets/images/group-4.png';
-
+import group5 from '@/assets/images/group-5.png';
 import Image from 'next/image';
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
@@ -31,6 +31,27 @@ const portfolioProjects = [
     ],
     link: 'https://anon-mess-57de.vercel.app/',
     image: group4,
+  },
+  {
+    company: 'Vibe-Room',
+    year: '2025',
+    title: 'Immersive Social Music Streaming',
+    results: [
+      {
+        title:
+          'Enabled synchronized multi-user streaming with real-time interaction',
+      },
+      {
+        title:
+          'Integrated chat and live activity tracking for social listening',
+      },
+      {
+        title:
+          'Optimized for smooth streaming and high concurrent user engagement',
+      },
+    ],
+    link: 'https://viberoom-9k5u.onrender.com/',
+    image: group5,
   },
   {
     company: 'Code Morph',
